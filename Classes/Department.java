@@ -1,10 +1,12 @@
 package Classes;
 
-import Interfaces.PassengerInterface;
-import Interfaces.WorkerInterface;
+import Interfaces.*;
 
+// Abstract class
+// Polymorphism
 public abstract class Department implements PassengerInterface, WorkerInterface {
 
+    // Overriding
     public boolean AddPassenger(Passenger P) {
         return false;
     }

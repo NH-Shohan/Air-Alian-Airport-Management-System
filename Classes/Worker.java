@@ -6,7 +6,7 @@ public class Worker {
     private int id;
     private int Wage;
     private String Waddress;
-    private int WphoneNumber;
+    private String WphoneNumber;
     private String Wgender;
 
     public void setName(String name) {
@@ -25,7 +25,7 @@ public class Worker {
         this.Waddress = address;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.WphoneNumber = phoneNumber;
     }
 
@@ -49,7 +49,7 @@ public class Worker {
         return Waddress;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return WphoneNumber;
     }
 
